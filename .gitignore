@@ -1,0 +1,11 @@
+build_config.mk
+*.a
+*.o
+*.dylib*
+*.so
+*.so.*
+*_test
+*.suo
+Temp
+db_bench
+leveldbutil
