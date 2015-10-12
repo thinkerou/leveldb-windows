@@ -99,6 +99,8 @@ TEST(EnvPosixTest, StartThread) {
 
 }  // namespace leveldb
 
+/* // disable warning LNK4006
 int main(int argc, char** argv) {
   return leveldb::test::RunAllTests();
 }
+*/

@@ -44,7 +44,7 @@ static void Usage() {
       "   dump files...         -- dump contents of specified files\n"
       );
 }
-
+/* // disable warning LNK4006
 int main(int argc, char** argv) {
   leveldb::Env* env = leveldb::Env::Default();
   bool ok = true;
@@ -62,3 +62,4 @@ int main(int argc, char** argv) {
   }
   return (ok ? 0 : 1);
 }
+*/
